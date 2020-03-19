@@ -1,0 +1,189 @@
+
+/*================================================================================
+INDEX*/
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+[hidden] {
+  display: none;
+}
+
+html {
+  height: 100%;
+  background-color: #0A1014;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+  -webkit-padding-after: 0;
+  border: 0;
+}
+
+
+{
+  box-sizing: border-box;
+}
+
+
+.middle {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+.searchbar {
+  min-height: 10%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: 'Poppins', sans-serif;
+ 
+  background-size: cover;
+  background-position: center center;
+  padding: 15px;
+}
+
+.searchbar form {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.searchbar form legend {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.searchbar form .inner-form {
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+.searchbar form .inner-form .input-field {
+  height: 60px;
+  width: 100%;
+  position: relative;
+}
+
+.searchbar form .inner-form .input-field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  background: #fff;
+  display: block;
+  width: 100%;
+  padding: 10px 32px 10px 70px;
+  font-size: 18px;
+  color: #666;
+  border-radius: 5px;
+}
+
+.searchbar form .inner-form .input-field input.placeholder {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.searchbar form .inner-form .input-field input:-moz-placeholder {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.searchbar form .inner-form .input-field input::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.searchbar form .inner-form .input-field input:hover, .searchbar form .inner-form .input-field input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.searchbar form .inner-form .input-field .btn-search {
+  width: 70px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  align-items: center;
+}
+
+.searchbar form .inner-form .input-field .btn-search svg {
+  fill: #ccc;
+  width: 30px;
+  height: 30px;
+  transition: all .2s ease-out, color .2s ease-out;
+}
+
+.searchbar form .inner-form .input-field .btn-search:hover, .searchbar form .inner-form .input-field .btn-search:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.searchbar form .inner-form .input-field .btn-search:hover svg, .searchbar form .inner-form .input-field .btn-search:focus svg {
+  fill: #666;
+}
+
+.searchbar form .suggestion-wrap {
+  padding: 0 15px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .searchbar form .inner-form .input-field {
+    margin-bottom: 20px;
+    height: 50px;
+  }
+  .searchbar form .inner-form .input-field input {
+    padding-left: 55px;
+    font-size: 16px;
+  }
+  .searchbar form .inner-form .input-field .btn-search svg {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+
+
+/*================================================================================
+SELECT PAGE*/
+
+
+
+
