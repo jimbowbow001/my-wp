@@ -1,4 +1,3 @@
-
 /*================================================================================
 INDEX*/
 article,
@@ -10,12 +9,10 @@ section {
   display: block;
 }
 
-
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
 
 [hidden] {
   display: none;
@@ -23,7 +20,7 @@ h1 {
 
 html {
   height: 100%;
-  background-color: #0A1014;
+  background-color: #0a1014;
 }
 
 fieldset {
@@ -38,31 +35,27 @@ fieldset {
   border: 0;
 }
 
-
-{
+* {
   box-sizing: border-box;
 }
 
-
 .middle {
-
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
 }
 
-
 .searchbar {
   min-height: 10%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   -ms-flex-align: center;
-      align-items: center;
-  font-family: 'Poppins', sans-serif;
- 
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+
   background-size: cover;
   background-position: center center;
   padding: 15px;
@@ -118,7 +111,8 @@ fieldset {
   font-size: 18px;
 }
 
-.searchbar form .inner-form .input-field input:hover, .searchbar form .inner-form .input-field input:focus {
+.searchbar form .inner-form .input-field input:hover,
+.searchbar form .inner-form .input-field input:focus {
   box-shadow: none;
   outline: 0;
 }
@@ -128,7 +122,7 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   position: absolute;
   left: 0;
   height: 100%;
@@ -138,7 +132,7 @@ fieldset {
   cursor: pointer;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -146,23 +140,23 @@ fieldset {
   fill: #ccc;
   width: 30px;
   height: 30px;
-  transition: all .2s ease-out, color .2s ease-out;
+  transition: all 0.2s ease-out, color 0.2s ease-out;
 }
 
-.searchbar form .inner-form .input-field .btn-search:hover, .searchbar form .inner-form .input-field .btn-search:focus {
+.searchbar form .inner-form .input-field .btn-search:hover,
+.searchbar form .inner-form .input-field .btn-search:focus {
   outline: 0;
   box-shadow: none;
 }
 
-.searchbar form .inner-form .input-field .btn-search:hover svg, .searchbar form .inner-form .input-field .btn-search:focus svg {
+.searchbar form .inner-form .input-field .btn-search:hover svg,
+.searchbar form .inner-form .input-field .btn-search:focus svg {
   fill: #666;
 }
 
 .searchbar form .suggestion-wrap {
   padding: 0 15px;
 }
-
-
 
 @media screen and (max-width: 767px) {
   .searchbar form .inner-form .input-field {
@@ -179,8 +173,6 @@ fieldset {
   }
 }
 
-
-
 /*================================================================================
 SELECT PAGE*/
 .grid {
@@ -188,17 +180,15 @@ SELECT PAGE*/
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
+
   width: 100%;
   max-width: 1024px;
- 
+
   /* Supports Grid */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(170px, auto));
-  grid-template-rows: minmax( auto,100px);
+  grid-template-rows: minmax(auto, 100px);
   grid-gap: 1em;
-   
-    
 }
 
 .module {
@@ -208,7 +198,7 @@ SELECT PAGE*/
   align-items: center;
   justify-content: center;
   height: 250px;
-  
+
   /* Flex Fallback */
   margin-left: 5px;
   margin-right: 5px;
